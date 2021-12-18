@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><Datatypes dialect="OracleDialect">
+    <Datatype definition="" identity="false" name="LONG RAW">
+        <Jdbctype value="LONGVARBINARY"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="RAW">
+        <Jdbctype value="VARBINARY"/>
+        <Jdbctype value="BINARY"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="LONG">
+        <Jdbctype value="LONGVARCHAR"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="CHAR">
+        <Jdbctype value="CHAR"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="NUMBER">
+        <Jdbctype value="NUMERIC"/>
+        <Jdbctype value="INTEGER"/>
+        <Jdbctype value="BIGINT"/>
+        <Jdbctype value="DECIMAL"/>
+        <Jdbctype value="DOUBLE"/>
+        <Jdbctype value="SMALLINT"/>
+        <Jdbctype value="BIT"/>
+        <Jdbctype value="TINYINT"/>
+        <Jdbctype value="BOOLEAN"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="FLOAT">
+        <Jdbctype value="FLOAT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="REAL">
+        <Jdbctype value="REAL"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="VARCHAR2">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="NVARCHAR2">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="DATE">
+        <Jdbctype value="DATE"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="TIMESTAMP">
+        <Jdbctype value="TIMESTAMP"/>
+        <Jdbctype value="TIME"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="BLOB">
+        <Jdbctype value="BLOB"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="CLOB">
+        <Jdbctype value="CLOB"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="NCLOB">
+        <Jdbctype value="CLOB"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="XMLTYPE">
+        <Jdbctype value="SQLXML"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="ROWID">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="SDO_GEOMETRY">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="SDO_GTYPE">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="SDO_SRID">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="SDO_POINT">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="SDO_ELEM_INFO">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="SDO_ORDINATES">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+</Datatypes>

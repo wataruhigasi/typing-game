@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><Datatypes dialect="PostgresDialect">
+    <Datatype definition="" identity="false" name="bool">
+        <Jdbctype value="BIT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="bytea">
+        <Jdbctype value="BINARY"/>
+        <Jdbctype value="VARBINARY"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="name">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="int8">
+        <Jdbctype value="BIGINT"/>
+    </Datatype>
+    <Datatype definition="" identity="true" name="bigserial">
+        <Jdbctype value="BIGINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="int2">
+        <Jdbctype value="SMALLINT"/>
+        <Jdbctype value="TINYINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="int4">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="true" name="serial">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="text">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="oid">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="float4">
+        <Jdbctype value="REAL"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="float8">
+        <Jdbctype value="DOUBLE"/>
+        <Jdbctype value="FLOAT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="money">
+        <Jdbctype value="DOUBLE"/>
+    </Datatype>
+    <Datatype definition="[$size]" identity="false" name="bpchar">
+        <Jdbctype value="CHAR"/>
+    </Datatype>
+    <Datatype definition="[$size]" identity="false" name="varchar">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="date">
+        <Jdbctype value="DATE"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="time">
+        <Jdbctype value="TIME"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="timestamp">
+        <Jdbctype value="TIMESTAMP"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="timestamptz">
+        <Jdbctype value="TIMESTAMP"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="timestamp with time zone">
+        <Jdbctype value="TIMESTAMP"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="timetz">
+        <Jdbctype value="TIME"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="bit">
+        <Jdbctype value="BIT"/>
+    </Datatype>
+    <Datatype definition="[$size], [$fraction]" identity="false" name="numeric">
+        <Jdbctype value="NUMERIC"/>
+        <Jdbctype value="DECIMAL"/>
+    </Datatype>
+    <Datatype definition="[$size]" identity="false" name="char">
+        <Jdbctype value="CHAR"/>
+    </Datatype>
+    <Datatype definition="[$size]" identity="false" name="character">
+        <Jdbctype value="CHAR"/>
+    </Datatype>
+    <Datatype definition="[$size]" identity="false" name="character varying">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="boolean">
+        <Jdbctype value="BOOLEAN"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="interval">
+        <Jdbctype value="TIMESTAMP"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="smallint">
+        <Jdbctype value="SMALLINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="integer">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="bigint">
+        <Jdbctype value="BIGINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="real">
+        <Jdbctype value="REAL"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="double precision">
+        <Jdbctype value="DOUBLE"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="xml">
+        <Jdbctype value="SQLXML"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="blob">
+        <Jdbctype value="BLOB"/>
+        <Jdbctype value="LONGVARBINARY"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="clob">
+        <Jdbctype value="CLOB"/>
+        <Jdbctype value="LONGVARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="inet">
+        <Jdbctype value="VARCHAR"/>
+        <Jdbctype value="NVARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="uuid">
+        <Jdbctype value="VARCHAR"/>
+        <Jdbctype value="NVARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="box2d">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="box3d">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="box3d_extent">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="geometry">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="geometry_dump">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="geography">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="tsvector">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="tsquery">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+</Datatypes>

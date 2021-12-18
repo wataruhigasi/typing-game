@@ -1,0 +1,54 @@
+{
+	"private": true,
+	"name": "vscode-typescript-vue-plugin",
+	"version": "0.29.5",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/johnsoncodehk/volar.git",
+		"directory": "extensions/vscode-typescript-vue-plugin"
+	},
+	"displayName": "TypeScript Vue Plugin (Volar)",
+	"description": "Vue Plugin for TypeScript server",
+	"author": "johnsoncodehk",
+	"publisher": "johnsoncodehk",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"typescriptServerPlugins": [
+			{
+				"name": "typescript-vue-plugin",
+				"enableForWorkspaceTypeScriptVersions": true
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "cd ../.. && npm run build",
+		"pack": "vsce package",
+		"release": "vsce publish --yarn"
+	},
+	"workspaces": [
+		"../../packages/code-gen",
+		"../../packages/html2pug",
+		"../../packages/shared",
+		"../../packages/source-map",
+		"../../packages/transforms",
+		"../../packages/typescript-vue-plugin",
+		"../../packages/vscode-pug-languageservice",
+		"../../packages/vscode-typescript-languageservice",
+		"../../packages/vscode-vue-languageservice",
+		"../../packages/vue-code-gen"
+	],
+	"dependencies": {
+		"typescript-vue-plugin": "0.29.5"
+	},
+	"devDependencies": {
+		"vsce": "latest"
+	},
+	"__metadata": {
+		"id": "78d16c76-388b-44e4-8470-6790d6c3d2d1",
+		"publisherId": "71f82d11-e592-4a4d-aca2-05045784d2d0",
+		"publisherDisplayName": "Johnson Chu",
+		"installedTimestamp": 1637044309898
+	}
+}

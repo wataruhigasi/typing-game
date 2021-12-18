@@ -1,0 +1,63 @@
+{
+	"name": "vscode-vuex-peek",
+	"displayName": "vuex peek",
+	"description": "Allows peek and goto vuex definition for Vue components",
+	"icon": "images/vuex-peek-icon.png",
+	"keywords": [
+		"peek",
+		"definition",
+		"vue",
+		"vuex"
+	],
+	"license": "MIT",
+	"version": "0.7.2",
+	"publisher": "Mcbai",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Mcbai/vscode-vuex-peek"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:vue"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "vuex peek",
+			"properties": {
+				"vuex_peek.storePath": {
+					"type": "array",
+					"default": [
+						"src/"
+					],
+					"items": {
+						"type": "string"
+					},
+					"description": "A list for the path of store folder."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"eslint": "^5.13.0",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42"
+	},
+	"__metadata": {
+		"id": "7b896757-ec7f-4965-9674-59cb214ee64f",
+		"publisherId": "f62bac04-31c9-4547-a043-649f14e7b58b",
+		"publisherDisplayName": "Mcbai",
+		"installedTimestamp": 1624022980753
+	}
+}

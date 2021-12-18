@@ -1,0 +1,1025 @@
+2021-07-13 18:16:50 INFO  =================== Log started =================== 
+2021-07-13 18:16:50 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 18:16:50 INFO  Setting default locale to: en 
+2021-07-13 18:16:50 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 18:16:50 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 18:16:50 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 18:16:50 INFO  Available memory: 989MB 
+2021-07-13 18:16:50 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\sql-workbench\sqlworkbench.jar 
+2021-07-13 18:16:50 INFO  Found 0 commands in 2ms 
+2021-07-13 18:16:50 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-13 18:16:51 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-13 18:16:51 INFO  Checking for ext libs took: 15ms 
+2021-07-13 18:16:52 WARN  Profile storage file C:\Users\ayumu\.sqlworkbench\WbProfiles.xml not found! 
+2021-07-13 18:16:54 INFO  New dev build available 
+2021-07-13 18:39:06 WARN  ConfigFile lastModified(): 0 
+2021-07-13 18:39:06 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 18:39:06 INFO  =================== Log stopped =================== 
+2021-07-13 18:39:18 INFO  =================== Log started =================== 
+2021-07-13 18:39:18 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 18:39:18 INFO  Setting default locale to: en 
+2021-07-13 18:39:18 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 18:39:18 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 18:39:18 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 18:39:18 INFO  Available memory: 989MB 
+2021-07-13 18:39:18 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\sql-workbench\sqlworkbench.jar 
+2021-07-13 18:39:18 INFO  Found 0 commands in 0ms 
+2021-07-13 18:39:18 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-13 18:39:18 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-13 18:39:19 INFO  Checking for ext libs took: 15ms 
+2021-07-13 18:39:19 WARN  Profile storage file C:\Users\ayumu\.sqlworkbench\WbProfiles.xml not found! 
+2021-07-13 18:42:48 INFO  Using drivers specified in the service definition of the driver jars: [org.h2.Driver] 
+2021-07-13 18:43:52 INFO  Created C:\Users\ayumu\.sqlworkbench\WbDrivers.xml.1 as a backup of: C:\Users\ayumu\.sqlworkbench\WbDrivers.xml 
+2021-07-13 18:46:45 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 18:46:45 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/h2.jar 
+2021-07-13 18:46:45 INFO  $Connection-Test: Using DBID=h2 
+2021-07-13 18:46:45 INFO  $Connection-Test: Using identifier quote character: " 
+2021-07-13 18:46:45 INFO  $Connection-Test: Using search string escape character: \ 
+2021-07-13 18:46:45 INFO  $Connection-Test: Using catalog separator: . 
+2021-07-13 18:46:45 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [$Connection-Test] 
+2021-07-13 18:46:45 WARN  Aborting all connections 
+2021-07-13 18:46:45 INFO  Connection closed after 11ms 
+2021-07-13 18:47:30 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 18:47:30 INFO  $Connection-Test: Using DBID=h2 
+2021-07-13 18:47:30 INFO  $Connection-Test: Using identifier quote character: " 
+2021-07-13 18:47:30 INFO  $Connection-Test: Using search string escape character: \ 
+2021-07-13 18:47:30 INFO  $Connection-Test: Using catalog separator: . 
+2021-07-13 18:47:30 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [$Connection-Test] 
+2021-07-13 18:47:30 WARN  Aborting all connections 
+2021-07-13 18:47:30 INFO  Connection closed after 1ms 
+2021-07-13 18:47:38 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 18:47:38 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-13 18:47:38 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-13 18:47:38 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-13 18:47:38 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-13 18:47:38 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-13 18:48:42 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 18:48:42 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 18:48:42 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 18:48:42 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 18:48:42 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 18:48:42 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 18:48:42 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 18:53:56 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-13 18:53:56 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-13 18:53:56 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 18:53:56 INFO  =================== Log stopped =================== 
+2021-07-13 18:53:58 INFO  =================== Log started =================== 
+2021-07-13 18:53:58 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 18:53:58 INFO  Setting default locale to: en 
+2021-07-13 18:53:58 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 18:53:58 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 18:53:58 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 18:53:58 INFO  Available memory: 989MB 
+2021-07-13 18:53:58 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\sql-workbench\sqlworkbench.jar 
+2021-07-13 18:53:58 INFO  Found 0 commands in 0ms 
+2021-07-13 18:53:59 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-13 18:53:59 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-13 18:53:59 INFO  Checking for ext libs took: 0ms 
+2021-07-13 18:53:59 WARN  Profile storage file C:\Users\ayumu\.sqlworkbench\WbProfiles.xml not found! 
+2021-07-13 18:55:06 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 18:55:06 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/h2.jar 
+2021-07-13 18:55:06 INFO  $Connection-Test: Using DBID=h2 
+2021-07-13 18:55:06 INFO  $Connection-Test: Using identifier quote character: " 
+2021-07-13 18:55:06 INFO  $Connection-Test: Using search string escape character: \ 
+2021-07-13 18:55:06 INFO  $Connection-Test: Using catalog separator: . 
+2021-07-13 18:55:06 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [$Connection-Test] 
+2021-07-13 18:55:06 WARN  Aborting all connections 
+2021-07-13 18:55:06 INFO  Connection closed after 16ms 
+2021-07-13 18:57:23 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 18:57:23 INFO  $Connection-Test: Using DBID=h2 
+2021-07-13 18:57:23 INFO  $Connection-Test: Using identifier quote character: " 
+2021-07-13 18:57:23 INFO  $Connection-Test: Using search string escape character: \ 
+2021-07-13 18:57:23 INFO  $Connection-Test: Using catalog separator: . 
+2021-07-13 18:57:23 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [$Connection-Test] 
+2021-07-13 18:57:23 WARN  Aborting all connections 
+2021-07-13 18:57:23 INFO  Connection closed after 15ms 
+2021-07-13 18:57:26 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 18:57:26 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 18:57:26 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 18:57:26 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 18:57:26 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 18:57:26 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 18:57:26 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 18:59:05 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-13 18:59:05 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 18:59:05 INFO  =================== Log stopped =================== 
+2021-07-13 19:00:00 INFO  =================== Log started =================== 
+2021-07-13 19:00:00 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 19:00:00 INFO  Setting default locale to: en 
+2021-07-13 19:00:00 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 19:00:00 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 19:00:00 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 19:00:00 INFO  Available memory: 247MB 
+2021-07-13 19:00:00 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\sql-workbench\sqlworkbench.jar 
+2021-07-13 19:00:00 INFO  Installed signal handler for INT 
+2021-07-13 19:00:00 INFO  could not register signal handler for: QUIT Unknown signal: QUIT
+java.lang.IllegalArgumentException: Unknown signal: QUIT
+	at sun.misc.Signal.<init>(Unknown Source)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:110)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:650)
+	at workbench.console.SQLConsole.main(SQLConsole.java:644)
+
+2021-07-13 19:00:00 INFO  Found 0 commands in 0ms 
+2021-07-13 19:00:00 INFO  SQL Workbench/J Console interface started 
+2021-07-13 19:00:06 INFO  =================== Log started =================== 
+2021-07-13 19:00:06 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 19:00:06 INFO  Setting default locale to: en 
+2021-07-13 19:00:06 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 19:00:06 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 19:00:06 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 19:00:06 INFO  Available memory: 989MB 
+2021-07-13 19:00:06 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\sql-workbench\sqlworkbench.jar 
+2021-07-13 19:00:06 INFO  Found 0 commands in 0ms 
+2021-07-13 19:00:06 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-13 19:00:06 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-13 19:00:07 INFO  Checking for ext libs took: 0ms 
+2021-07-13 19:00:07 WARN  Profile storage file C:\Users\ayumu\.sqlworkbench\WbProfiles.xml not found! 
+2021-07-13 19:00:43 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 19:00:43 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/h2.jar 
+2021-07-13 19:00:43 INFO  $Connection-Test: Using DBID=h2 
+2021-07-13 19:00:43 INFO  $Connection-Test: Using identifier quote character: " 
+2021-07-13 19:00:43 INFO  $Connection-Test: Using search string escape character: \ 
+2021-07-13 19:00:43 INFO  $Connection-Test: Using catalog separator: . 
+2021-07-13 19:00:43 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [$Connection-Test] 
+2021-07-13 19:00:43 WARN  Aborting all connections 
+2021-07-13 19:00:43 INFO  Connection closed after 16ms 
+2021-07-13 19:00:50 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 19:00:50 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 19:00:50 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 19:00:50 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 19:00:50 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 19:00:50 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 19:00:50 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 19:02:21 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 19:02:21 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-13 19:02:21 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-13 19:02:21 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-13 19:02:21 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-13 19:02:21 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-13 19:02:37 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-13 19:02:37 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-13 19:02:37 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 19:02:37 INFO  =================== Log stopped =================== 
+2021-07-13 19:09:26 INFO  =================== Log started =================== 
+2021-07-13 19:09:26 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 19:09:26 INFO  Setting default locale to: en 
+2021-07-13 19:09:26 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 19:09:26 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 19:09:26 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 19:09:26 INFO  Available memory: 989MB 
+2021-07-13 19:09:26 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\sql-workbench\sqlworkbench.jar 
+2021-07-13 19:09:26 INFO  Found 0 commands in 1ms 
+2021-07-13 19:09:26 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-13 19:09:26 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-13 19:09:27 INFO  Checking for ext libs took: 6ms 
+2021-07-13 19:09:27 WARN  Profile storage file C:\Users\ayumu\.sqlworkbench\WbProfiles.xml not found! 
+2021-07-13 19:14:56 INFO  Using drivers specified in the service definition of the driver jars: [org.h2.Driver] 
+2021-07-13 19:15:16 INFO  Created C:\Users\ayumu\.sqlworkbench\WbDrivers.xml.2 as a backup of: C:\Users\ayumu\.sqlworkbench\WbDrivers.xml 
+2021-07-13 19:16:00 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 19:16:00 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/h2.jar 
+2021-07-13 19:16:00 INFO  $Connection-Test: Using DBID=h2 
+2021-07-13 19:16:00 INFO  $Connection-Test: Using identifier quote character: " 
+2021-07-13 19:16:00 INFO  $Connection-Test: Using search string escape character: \ 
+2021-07-13 19:16:00 INFO  $Connection-Test: Using catalog separator: . 
+2021-07-13 19:16:00 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [$Connection-Test] 
+2021-07-13 19:16:00 WARN  Aborting all connections 
+2021-07-13 19:16:00 INFO  Connection closed after 4ms 
+2021-07-13 19:16:53 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 19:16:53 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 19:16:53 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 19:16:53 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 19:16:53 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 19:16:53 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 19:16:53 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 19:17:40 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 19:17:40 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-13 19:17:40 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-13 19:17:40 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-13 19:17:40 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-13 19:17:40 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-13 19:17:49 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 19:17:49 INFO  WbWin-1 TAB-3: Using DBID=h2 
+2021-07-13 19:17:49 INFO  WbWin-1 TAB-3: Using identifier quote character: " 
+2021-07-13 19:17:49 INFO  WbWin-1 TAB-3: Using search string escape character: \ 
+2021-07-13 19:17:49 INFO  WbWin-1 TAB-3: Using catalog separator: . 
+2021-07-13 19:17:49 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-3] 
+2021-07-13 19:17:49 INFO  WbWin-1 TAB-3: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 19:17:56 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 19:17:56 INFO  WbExp-3: Using DBID=h2 
+2021-07-13 19:17:56 INFO  WbExp-3: Using identifier quote character: " 
+2021-07-13 19:17:56 INFO  WbExp-3: Using search string escape character: \ 
+2021-07-13 19:17:56 INFO  WbExp-3: Using catalog separator: . 
+2021-07-13 19:17:56 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbExp-3] 
+2021-07-13 19:17:56 INFO  WbExp-3: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 19:22:26 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-13 19:22:26 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-13 19:22:26 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-3 
+2021-07-13 19:22:26 INFO  Disconnecting: [New profile], ID=WbExp-3 
+2021-07-13 19:22:26 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 19:22:26 INFO  =================== Log stopped =================== 
+2021-07-13 20:47:52 INFO  =================== Log started =================== 
+2021-07-13 20:47:52 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 20:47:52 INFO  Setting default locale to: en 
+2021-07-13 20:47:52 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 20:47:52 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 20:47:52 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 20:47:52 INFO  Available memory: 989MB 
+2021-07-13 20:47:52 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\sql-workbench\sqlworkbench.jar 
+2021-07-13 20:47:52 INFO  Found 0 commands in 0ms 
+2021-07-13 20:47:53 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-13 20:47:53 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-13 20:47:54 INFO  Checking for ext libs took: 11ms 
+2021-07-13 20:47:54 WARN  Profile storage file C:\Users\ayumu\.sqlworkbench\WbProfiles.xml not found! 
+2021-07-13 20:48:25 INFO  Using drivers specified in the service definition of the driver jars: [org.h2.Driver] 
+2021-07-13 20:48:31 INFO  Created C:\Users\ayumu\.sqlworkbench\WbDrivers.xml.3 as a backup of: C:\Users\ayumu\.sqlworkbench\WbDrivers.xml 
+2021-07-13 20:48:54 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 20:48:54 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/sql-workbench/h2.jar 
+2021-07-13 20:48:54 INFO  $Connection-Test: Using DBID=h2 
+2021-07-13 20:48:54 INFO  $Connection-Test: Using identifier quote character: " 
+2021-07-13 20:48:54 INFO  $Connection-Test: Using search string escape character: \ 
+2021-07-13 20:48:54 INFO  $Connection-Test: Using catalog separator: . 
+2021-07-13 20:48:54 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [$Connection-Test] 
+2021-07-13 20:48:54 WARN  Aborting all connections 
+2021-07-13 20:48:54 INFO  Connection closed after 0ms 
+2021-07-13 20:48:58 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 20:48:58 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 20:48:58 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 20:48:58 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 20:48:58 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 20:48:58 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 20:48:58 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 20:49:12 WARN  SQL Workbench/J process has been interrupted. 
+2021-07-13 21:03:21 INFO  =================== Log started =================== 
+2021-07-13 21:03:21 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 21:03:21 INFO  Setting default locale to: en 
+2021-07-13 21:03:21 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 21:03:21 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 21:03:21 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 21:03:21 INFO  Available memory: 247MB 
+2021-07-13 21:03:21 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-13 21:03:21 INFO  Installed signal handler for INT 
+2021-07-13 21:03:21 INFO  could not register signal handler for: QUIT Unknown signal: QUIT
+java.lang.IllegalArgumentException: Unknown signal: QUIT
+	at sun.misc.Signal.<init>(Unknown Source)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:110)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:650)
+	at workbench.console.SQLConsole.main(SQLConsole.java:644)
+
+2021-07-13 21:03:21 INFO  Found 0 commands in 0ms 
+2021-07-13 21:03:21 INFO  SQL Workbench/J Console interface started 
+2021-07-13 21:03:39 INFO  =================== Log started =================== 
+2021-07-13 21:03:39 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 21:03:40 INFO  Setting default locale to: en 
+2021-07-13 21:03:40 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 21:03:40 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 21:03:40 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 21:03:40 INFO  Available memory: 989MB 
+2021-07-13 21:03:40 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-13 21:03:40 INFO  Found 0 commands in 0ms 
+2021-07-13 21:03:40 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-13 21:03:40 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-13 21:03:41 INFO  Checking for ext libs took: 9ms 
+2021-07-13 21:03:41 WARN  Profile storage file C:\Users\ayumu\.sqlworkbench\WbProfiles.xml not found! 
+2021-07-13 21:03:44 INFO  New dev build available 
+2021-07-13 21:03:58 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 21:03:58 INFO  =================== Log stopped =================== 
+2021-07-13 21:04:29 INFO  =================== Log started =================== 
+2021-07-13 21:04:29 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 21:04:29 INFO  Setting default locale to: en 
+2021-07-13 21:04:29 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 21:04:29 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 21:04:29 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 21:04:29 INFO  Available memory: 989MB 
+2021-07-13 21:04:29 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-13 21:04:29 INFO  Found 0 commands in 0ms 
+2021-07-13 21:04:29 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-13 21:04:29 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-13 21:04:30 INFO  Checking for ext libs took: 0ms 
+2021-07-13 21:04:30 WARN  Profile storage file C:\Users\ayumu\.sqlworkbench\WbProfiles.xml not found! 
+2021-07-13 21:04:52 INFO  Using drivers specified in the service definition of the driver jars: [org.h2.Driver] 
+2021-07-13 21:05:03 INFO  Created C:\Users\ayumu\.sqlworkbench\WbDrivers.xml.4 as a backup of: C:\Users\ayumu\.sqlworkbench\WbDrivers.xml 
+2021-07-13 21:05:45 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 21:05:45 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-13 21:05:45 INFO  $Connection-Test: Using DBID=h2 
+2021-07-13 21:05:45 INFO  $Connection-Test: Using identifier quote character: " 
+2021-07-13 21:05:45 INFO  $Connection-Test: Using search string escape character: \ 
+2021-07-13 21:05:45 INFO  $Connection-Test: Using catalog separator: . 
+2021-07-13 21:05:45 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [$Connection-Test] 
+2021-07-13 21:05:45 WARN  Aborting all connections 
+2021-07-13 21:05:45 INFO  Connection closed after 8ms 
+2021-07-13 21:05:48 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 21:05:48 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 21:05:48 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 21:05:48 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 21:05:48 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 21:05:48 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 21:05:49 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 21:06:34 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-13 21:06:34 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 21:06:34 INFO  =================== Log stopped =================== 
+2021-07-13 21:07:09 INFO  =================== Log started =================== 
+2021-07-13 21:07:09 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 21:07:09 INFO  Setting default locale to: en 
+2021-07-13 21:07:09 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 21:07:09 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 21:07:09 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 21:07:09 INFO  Available memory: 989MB 
+2021-07-13 21:07:09 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-13 21:07:09 INFO  Found 0 commands in 0ms 
+2021-07-13 21:07:09 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-13 21:07:10 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-13 21:07:10 INFO  Checking for ext libs took: 9ms 
+2021-07-13 21:07:11 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-13 21:07:31 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 21:07:31 INFO  =================== Log stopped =================== 
+2021-07-13 21:40:22 INFO  =================== Log started =================== 
+2021-07-13 21:40:22 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 21:40:22 INFO  Setting default locale to: en 
+2021-07-13 21:40:22 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 21:40:22 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 21:40:22 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 21:40:22 INFO  Available memory: 1397MB 
+2021-07-13 21:40:22 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar;C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\\ext\* 
+2021-07-13 21:40:22 INFO  Found 0 commands in 0ms 
+2021-07-13 21:40:22 INFO  Current DPI: 144, Default DPI: 96, scale factor: 1.5 
+2021-07-13 21:40:22 INFO  Scaling default fonts by: 1.5 
+2021-07-13 21:40:23 INFO  Using sizes: toolbar: 24, menu: 24 
+2021-07-13 21:40:24 INFO  Checking for ext libs took: 26ms 
+2021-07-13 21:40:24 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-13 21:40:39 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 21:40:39 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-13 21:40:40 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 21:40:40 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 21:40:40 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 21:40:40 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 21:40:40 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 21:40:40 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 21:40:50 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-13 21:40:51 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 21:40:51 INFO  =================== Log stopped =================== 
+2021-07-13 21:40:57 INFO  =================== Log started =================== 
+2021-07-13 21:40:57 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 21:40:57 INFO  Setting default locale to: en 
+2021-07-13 21:40:57 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 21:40:57 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 21:40:57 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 21:40:57 INFO  Available memory: 1366MB 
+2021-07-13 21:40:57 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar;C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\\ext\* 
+2021-07-13 21:40:57 INFO  Found 0 commands in 0ms 
+2021-07-13 21:40:57 INFO  Current DPI: 144, Default DPI: 96, scale factor: 1.5 
+2021-07-13 21:40:57 INFO  Scaling default fonts by: 1.5 
+2021-07-13 21:40:57 INFO  Using sizes: toolbar: 24, menu: 24 
+2021-07-13 21:40:58 INFO  Checking for ext libs took: 16ms 
+2021-07-13 21:40:58 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-13 21:41:04 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 21:41:04 INFO  =================== Log stopped =================== 
+2021-07-13 21:41:11 INFO  =================== Log started =================== 
+2021-07-13 21:41:11 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 21:41:11 INFO  Setting default locale to: en 
+2021-07-13 21:41:11 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 21:41:11 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 21:41:11 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 21:41:11 INFO  Available memory: 1390MB 
+2021-07-13 21:41:11 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar;C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\\ext\* 
+2021-07-13 21:41:11 INFO  Found 0 commands in 0ms 
+2021-07-13 21:41:11 INFO  Current DPI: 144, Default DPI: 96, scale factor: 1.5 
+2021-07-13 21:41:11 INFO  Scaling default fonts by: 1.5 
+2021-07-13 21:41:11 INFO  Using sizes: toolbar: 24, menu: 24 
+2021-07-13 21:41:12 INFO  Checking for ext libs took: 16ms 
+2021-07-13 21:41:12 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-13 21:41:32 INFO  Using drivers specified in the service definition of the driver jars: [org.h2.Driver] 
+2021-07-13 21:41:37 INFO  Created C:\Users\ayumu\.sqlworkbench\WbDrivers.xml.5 as a backup of: C:\Users\ayumu\.sqlworkbench\WbDrivers.xml 
+2021-07-13 21:41:45 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 21:41:45 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-13 21:41:45 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 21:41:45 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 21:41:45 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 21:41:45 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 21:41:45 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 21:41:45 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 21:42:24 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-13 21:42:24 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 21:42:24 INFO  =================== Log stopped =================== 
+2021-07-13 21:42:29 INFO  =================== Log started =================== 
+2021-07-13 21:42:29 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 21:42:29 INFO  Setting default locale to: en 
+2021-07-13 21:42:29 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 21:42:29 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 21:42:29 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 21:42:29 INFO  Available memory: 1405MB 
+2021-07-13 21:42:29 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar;C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\\ext\* 
+2021-07-13 21:42:29 INFO  Found 0 commands in 3ms 
+2021-07-13 21:42:29 INFO  Current DPI: 144, Default DPI: 96, scale factor: 1.5 
+2021-07-13 21:42:29 INFO  Scaling default fonts by: 1.5 
+2021-07-13 21:42:30 INFO  Using sizes: toolbar: 24, menu: 24 
+2021-07-13 21:42:31 INFO  Checking for ext libs took: 12ms 
+2021-07-13 21:42:31 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-13 21:42:33 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 21:42:33 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-13 21:42:34 INFO  $Connection-Test: Using DBID=h2 
+2021-07-13 21:42:34 INFO  $Connection-Test: Using identifier quote character: " 
+2021-07-13 21:42:34 INFO  $Connection-Test: Using search string escape character: \ 
+2021-07-13 21:42:34 INFO  $Connection-Test: Using catalog separator: . 
+2021-07-13 21:42:34 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [$Connection-Test] 
+2021-07-13 21:42:34 WARN  Aborting all connections 
+2021-07-13 21:42:34 INFO  Connection closed after 16ms 
+2021-07-13 21:42:37 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 21:42:37 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 21:42:37 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 21:42:37 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 21:42:37 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 21:42:37 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 21:42:38 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 21:43:04 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 21:43:04 INFO  WbWin-1 TAB-3: Using DBID=h2 
+2021-07-13 21:43:04 INFO  WbWin-1 TAB-3: Using identifier quote character: " 
+2021-07-13 21:43:04 INFO  WbWin-1 TAB-3: Using search string escape character: \ 
+2021-07-13 21:43:04 INFO  WbWin-1 TAB-3: Using catalog separator: . 
+2021-07-13 21:43:04 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-3] 
+2021-07-13 21:43:04 INFO  WbWin-1 TAB-3: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 21:43:20 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-3 
+2021-07-13 21:43:20 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-13 21:43:21 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 21:43:21 INFO  =================== Log stopped =================== 
+2021-07-13 21:44:41 INFO  =================== Log started =================== 
+2021-07-13 21:44:41 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 21:44:41 INFO  Setting default locale to: en 
+2021-07-13 21:44:41 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 21:44:41 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 21:44:41 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 21:44:41 INFO  Available memory: 1432MB 
+2021-07-13 21:44:41 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar;C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\\ext\* 
+2021-07-13 21:44:41 INFO  Found 0 commands in 6ms 
+2021-07-13 21:44:41 INFO  Current DPI: 144, Default DPI: 96, scale factor: 1.5 
+2021-07-13 21:44:41 INFO  Scaling default fonts by: 1.5 
+2021-07-13 21:44:41 INFO  Using sizes: toolbar: 24, menu: 24 
+2021-07-13 21:44:42 INFO  Checking for ext libs took: 4ms 
+2021-07-13 21:44:42 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-13 21:44:52 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 21:44:52 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-13 21:44:52 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 21:44:52 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 21:44:52 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 21:44:52 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 21:44:52 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 21:44:53 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 21:45:31 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-13 21:45:31 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 21:45:31 INFO  =================== Log stopped =================== 
+2021-07-13 23:12:10 INFO  =================== Log started =================== 
+2021-07-13 23:12:10 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 23:12:10 INFO  Setting default locale to: en 
+2021-07-13 23:12:10 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 23:12:10 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 23:12:10 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 23:12:10 INFO  Available memory: 989MB 
+2021-07-13 23:12:10 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-13 23:12:10 INFO  Found 0 commands in 0ms 
+2021-07-13 23:12:10 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-13 23:12:11 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-13 23:12:12 INFO  Checking for ext libs took: 7ms 
+2021-07-13 23:12:12 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-13 23:12:31 INFO  Created C:\Users\ayumu\.sqlworkbench\WbDrivers.xml.5 as a backup of: C:\Users\ayumu\.sqlworkbench\WbDrivers.xml 
+2021-07-13 23:12:49 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 23:12:49 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-13 23:12:50 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 23:12:50 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 23:12:50 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 23:12:50 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 23:12:50 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 23:12:50 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 23:15:38 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-13 23:15:39 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-13 23:15:39 INFO  =================== Log stopped =================== 
+2021-07-13 23:22:41 INFO  =================== Log started =================== 
+2021-07-13 23:22:41 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 23:22:41 INFO  Setting default locale to: en 
+2021-07-13 23:22:41 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 23:22:41 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 23:22:41 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 23:22:41 INFO  Available memory: 494MB 
+2021-07-13 23:22:41 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar;C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\\ext\* 
+2021-07-13 23:22:41 INFO  Installed signal handler for INT 
+2021-07-13 23:22:41 INFO  could not register signal handler for: QUIT Unknown signal: QUIT
+java.lang.IllegalArgumentException: Unknown signal: QUIT
+	at sun.misc.Signal.<init>(Unknown Source)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:110)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:650)
+	at workbench.console.SQLConsole.main(SQLConsole.java:644)
+
+2021-07-13 23:22:41 INFO  Found 0 commands in 0ms 
+2021-07-13 23:22:41 INFO  SQL Workbench/J Console interface started 
+2021-07-13 23:22:49 INFO  =================== Log started =================== 
+2021-07-13 23:22:49 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-13 23:22:49 INFO  Setting default locale to: en 
+2021-07-13 23:22:49 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-13 23:22:49 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-13 23:22:49 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-13 23:22:49 INFO  Available memory: 989MB 
+2021-07-13 23:22:49 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-13 23:22:49 INFO  Found 0 commands in 8ms 
+2021-07-13 23:22:49 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-13 23:22:49 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-13 23:22:50 INFO  Checking for ext libs took: 0ms 
+2021-07-13 23:22:50 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-13 23:22:56 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 23:22:56 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-13 23:22:56 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-13 23:22:56 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-13 23:22:56 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-13 23:22:56 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-13 23:22:56 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-13 23:22:56 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-13 23:41:41 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-13 23:41:41 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-13 23:41:41 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-13 23:41:41 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-13 23:41:41 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-13 23:41:41 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-14 00:17:32 ERROR Error executing:
+CREATE VIEW EMPLOYEESVIEW AS SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID
+  Table "POSITIONS" not found; SQL statement:
+CREATE VIEW EMPLOYEESVIEW AS SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID [42102-192] [SQL State=42S02, DB Errorcode=42102] 
+2021-07-14 00:17:43 ERROR Error executing:
+CREATE VIEW EMPLOYEESVIEW AS SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID
+  Table "POSITIONS" not found; SQL statement:
+CREATE VIEW EMPLOYEESVIEW AS SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID [42102-192] [SQL State=42S02, DB Errorcode=42102] 
+2021-07-14 00:21:40 ERROR Error executing:
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID
+  Syntax error in SQL statement "POSITIONS[*].NAME AS POSITION,
+DEPARTMENTS.NAME AS DEPARTMENT FROM DEPTSTAFF
+JOIN EMPLOYEES ON DEPTSTAFF.EMPLOYEEID = EMPLOYEES.ID
+JOIN DEPARTMENTS ON DEPTSTAFF.DEPARTMENTID = DEPARTMENTS.ID
+JOIN POSITIONS ON EMPLOYEES.POSITIONID = POSITIONS.ID "; expected "PREPARE, {"; SQL statement:
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID [42001-192] [SQL State=42001, DB Errorcode=42001] 
+2021-07-14 00:21:51 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-14 00:21:51 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-14 00:21:51 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-14 00:21:51 INFO  =================== Log stopped =================== 
+2021-07-14 00:27:09 INFO  =================== Log started =================== 
+2021-07-14 00:27:09 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-14 00:27:09 INFO  Setting default locale to: en 
+2021-07-14 00:27:09 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-14 00:27:09 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-14 00:27:09 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-14 00:27:09 INFO  Available memory: 989MB 
+2021-07-14 00:27:09 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-14 00:27:09 INFO  Found 0 commands in 0ms 
+2021-07-14 00:27:09 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-14 00:27:09 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-14 00:27:10 INFO  Checking for ext libs took: 1ms 
+2021-07-14 00:27:10 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-14 00:27:14 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 00:27:14 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-14 00:27:14 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-14 00:27:14 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-14 00:27:14 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-14 00:27:14 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-14 00:27:14 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-14 00:27:15 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 00:27:15 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-14 00:27:15 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-14 00:27:15 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-14 00:27:15 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-14 00:27:15 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-14 00:27:16 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-14 00:27:24 ERROR Error executing:
+CREATE VIEW EMPLOYEESVIEW AS CREATE VIEW EMPLOYEESVIEW AS SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID
+  Syntax error in SQL statement "CREATE VIEW EMPLOYEESVIEW AS CREATE[*] VIEW EMPLOYEESVIEW AS SELECT EMPLOYEES.NAME AS EMPLOYEE, AGE,
+POSITIONS.NAME AS POSITION,
+DEPARTMENTS.NAME AS DEPARTMENT FROM DEPTSTAFF
+JOIN EMPLOYEES ON DEPTSTAFF.EMPLOYEEID = EMPLOYEES.ID
+JOIN DEPARTMENTS ON DEPTSTAFF.DEPARTMENTID = DEPARTMENTS.ID
+JOIN POSITIONS ON EMPLOYEES.POSITIONID = POSITIONS.ID "; expected "(, WITH, SELECT, FROM"; SQL statement:
+CREATE VIEW EMPLOYEESVIEW AS CREATE VIEW EMPLOYEESVIEW AS SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID [42001-192] [SQL State=42001, DB Errorcode=42001] 
+2021-07-14 00:27:46 ERROR Error executing:
+CREATE VIEW EMPLOYEESVIEW AS CREATE VIEW EMPLOYEESVIEW AS SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID
+  Syntax error in SQL statement "CREATE VIEW EMPLOYEESVIEW AS CREATE[*] VIEW EMPLOYEESVIEW AS SELECT EMPLOYEES.NAME AS EMPLOYEE, AGE,
+POSITIONS.NAME AS POSITION,
+DEPARTMENTS.NAME AS DEPARTMENT FROM DEPTSTAFF
+JOIN EMPLOYEES ON DEPTSTAFF.EMPLOYEEID = EMPLOYEES.ID
+JOIN DEPARTMENTS ON DEPTSTAFF.DEPARTMENTID = DEPARTMENTS.ID
+JOIN POSITIONS ON EMPLOYEES.POSITIONID = POSITIONS.ID "; expected "(, WITH, SELECT, FROM"; SQL statement:
+CREATE VIEW EMPLOYEESVIEW AS CREATE VIEW EMPLOYEESVIEW AS SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID [42001-192] [SQL State=42001, DB Errorcode=42001] 
+2021-07-14 00:28:09 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-14 00:28:09 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-14 00:28:09 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-14 00:28:09 INFO  =================== Log stopped =================== 
+2021-07-14 00:43:52 INFO  =================== Log started =================== 
+2021-07-14 00:43:52 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-14 00:43:52 INFO  Setting default locale to: en 
+2021-07-14 00:43:52 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-14 00:43:52 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-14 00:43:52 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-14 00:43:52 INFO  Available memory: 989MB 
+2021-07-14 00:43:52 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-14 00:43:52 INFO  Found 0 commands in 0ms 
+2021-07-14 00:43:52 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-14 00:43:52 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-14 00:43:53 INFO  Checking for ext libs took: 8ms 
+2021-07-14 00:43:53 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-14 00:43:57 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 00:43:57 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-14 00:43:58 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-14 00:43:58 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-14 00:43:58 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-14 00:43:58 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-14 00:43:58 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-14 00:43:58 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-14 00:51:46 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 00:51:46 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-14 00:51:46 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-14 00:51:46 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-14 00:51:46 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-14 00:51:46 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-14 00:53:18 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-14 00:53:18 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-14 00:53:19 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-14 00:53:19 INFO  =================== Log stopped =================== 
+2021-07-14 00:54:00 INFO  =================== Log started =================== 
+2021-07-14 00:54:00 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-14 00:54:01 INFO  Setting default locale to: en 
+2021-07-14 00:54:01 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-14 00:54:01 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-14 00:54:01 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-14 00:54:01 INFO  Available memory: 989MB 
+2021-07-14 00:54:01 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-14 00:54:01 INFO  Found 0 commands in 0ms 
+2021-07-14 00:54:01 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-14 00:54:01 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-14 00:54:01 INFO  Checking for ext libs took: 3ms 
+2021-07-14 00:54:02 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-14 00:54:06 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 00:54:06 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-14 00:54:06 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-14 00:54:06 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-14 00:54:06 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-14 00:54:06 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-14 00:54:06 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-14 00:54:07 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 00:54:07 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-14 00:54:07 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-14 00:54:07 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-14 00:54:07 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-14 00:54:07 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-14 00:54:07 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-14 00:54:38 ERROR Error executing:
+CREATE VIEW EMPLOYEESVIEW AS SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID
+  Table "POSITIONS" not found; SQL statement:
+CREATE VIEW EMPLOYEESVIEW AS SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID [42102-192] [SQL State=42S02, DB Errorcode=42102] 
+2021-07-14 00:57:33 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-14 00:57:33 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-14 00:57:33 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-14 00:57:33 INFO  =================== Log stopped =================== 
+2021-07-14 01:10:41 INFO  =================== Log started =================== 
+2021-07-14 01:10:41 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-14 01:10:41 INFO  Setting default locale to: en 
+2021-07-14 01:10:41 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-14 01:10:41 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-14 01:10:41 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-14 01:10:41 INFO  Available memory: 989MB 
+2021-07-14 01:10:41 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-14 01:10:41 INFO  Found 0 commands in 0ms 
+2021-07-14 01:10:41 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-14 01:10:42 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-14 01:10:42 INFO  Checking for ext libs took: 1ms 
+2021-07-14 01:10:43 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-14 01:10:46 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 01:10:46 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-14 01:10:46 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-14 01:10:46 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-14 01:10:46 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-14 01:10:46 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-14 01:10:46 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-14 01:11:17 ERROR Error executing:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID
+  Table "POSITIONS" not found; SQL statement:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID [42102-192] [SQL State=42S02, DB Errorcode=42102] 
+2021-07-14 01:11:31 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 01:11:31 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-14 01:11:31 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-14 01:11:31 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-14 01:11:31 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-14 01:11:31 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-14 01:11:31 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-14 01:11:47 ERROR Error executing:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID
+  Table "POSITIONS" not found; SQL statement:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees on Deptstaff.EmployeeID = Employees.ID
+JOIN Departments on Deptstaff.DepartmentID = Departments.ID
+JOIN Positions on Employees.PositionID = Positions.ID [42102-192] [SQL State=42S02, DB Errorcode=42102] 
+2021-07-14 01:12:46 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-14 01:12:46 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-14 01:12:46 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-14 01:12:46 INFO  =================== Log stopped =================== 
+2021-07-14 01:13:21 INFO  =================== Log started =================== 
+2021-07-14 01:13:21 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-14 01:13:21 INFO  Setting default locale to: en 
+2021-07-14 01:13:21 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-14 01:13:21 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-14 01:13:21 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-14 01:13:21 INFO  Available memory: 989MB 
+2021-07-14 01:13:21 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-14 01:13:21 INFO  Found 0 commands in 0ms 
+2021-07-14 01:13:22 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-14 01:13:22 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-14 01:13:22 INFO  Checking for ext libs took: 1ms 
+2021-07-14 01:13:23 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-14 01:13:27 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 01:13:27 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-14 01:13:27 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-14 01:13:27 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-14 01:13:27 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-14 01:13:27 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-14 01:13:27 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-14 01:13:29 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 01:13:29 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-14 01:13:29 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-14 01:13:29 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-14 01:13:29 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-14 01:13:29 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-14 01:13:29 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-14 01:13:33 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 01:13:33 INFO  WbWin-1 TAB-3: Using DBID=h2 
+2021-07-14 01:13:33 INFO  WbWin-1 TAB-3: Using identifier quote character: " 
+2021-07-14 01:13:33 INFO  WbWin-1 TAB-3: Using search string escape character: \ 
+2021-07-14 01:13:33 INFO  WbWin-1 TAB-3: Using catalog separator: . 
+2021-07-14 01:13:33 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-3] 
+2021-07-14 01:13:33 INFO  WbWin-1 TAB-3: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-14 01:22:08 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-14 01:22:08 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-14 01:22:08 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-3 
+2021-07-14 01:22:08 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-14 01:22:08 INFO  =================== Log stopped =================== 
+2021-07-14 01:37:52 INFO  =================== Log started =================== 
+2021-07-14 01:37:52 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-14 01:37:52 INFO  Setting default locale to: en 
+2021-07-14 01:37:52 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-14 01:37:52 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-14 01:37:52 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-14 01:37:52 INFO  Available memory: 989MB 
+2021-07-14 01:37:52 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-14 01:37:52 INFO  Found 0 commands in 0ms 
+2021-07-14 01:37:52 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-14 01:37:53 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-14 01:37:53 INFO  Checking for ext libs took: 17ms 
+2021-07-14 01:37:54 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-14 01:37:57 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 01:37:57 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-14 01:37:57 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-14 01:37:57 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-14 01:37:57 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-14 01:37:57 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-14 01:37:57 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-14 01:37:57 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-14 01:37:59 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 01:37:59 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-14 01:37:59 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-14 01:37:59 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-14 01:37:59 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-14 01:37:59 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-14 02:17:48 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-14 02:17:48 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-14 02:17:48 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-14 02:17:48 INFO  =================== Log stopped =================== 
+2021-07-14 02:21:40 INFO  =================== Log started =================== 
+2021-07-14 02:21:40 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-14 02:21:40 INFO  Setting default locale to: en 
+2021-07-14 02:21:40 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-14 02:21:40 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-14 02:21:40 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-14 02:21:40 INFO  Available memory: 989MB 
+2021-07-14 02:21:40 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-14 02:21:40 INFO  Found 0 commands in 8ms 
+2021-07-14 02:21:40 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-14 02:21:40 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-14 02:21:41 INFO  Checking for ext libs took: 28ms 
+2021-07-14 02:21:42 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-14 02:21:45 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 02:21:45 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-14 02:21:45 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-14 02:21:45 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-14 02:21:45 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-14 02:21:45 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-14 02:21:45 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-14 02:21:49 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 02:21:49 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-14 02:21:49 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-14 02:21:49 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-14 02:21:49 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-14 02:21:49 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-14 02:21:49 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-14 02:23:13 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-14 02:23:13 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-14 02:23:13 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-14 02:23:13 INFO  =================== Log stopped =================== 
+2021-07-14 02:23:23 INFO  =================== Log started =================== 
+2021-07-14 02:23:23 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-14 02:23:23 INFO  Setting default locale to: en 
+2021-07-14 02:23:23 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-14 02:23:23 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-14 02:23:23 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-14 02:23:23 INFO  Available memory: 989MB 
+2021-07-14 02:23:23 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-14 02:23:23 INFO  Found 0 commands in 0ms 
+2021-07-14 02:23:23 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-14 02:23:23 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-14 02:23:24 INFO  Checking for ext libs took: 15ms 
+2021-07-14 02:23:24 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-14 02:23:30 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 02:23:30 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-14 02:23:30 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-14 02:23:30 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-14 02:23:30 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-14 02:23:31 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-14 02:23:31 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-14 02:23:31 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-14 02:23:41 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 02:23:41 INFO  WbWin-1 TAB-3: Using DBID=h2 
+2021-07-14 02:23:41 INFO  WbWin-1 TAB-3: Using identifier quote character: " 
+2021-07-14 02:23:41 INFO  WbWin-1 TAB-3: Using search string escape character: \ 
+2021-07-14 02:23:41 INFO  WbWin-1 TAB-3: Using catalog separator: . 
+2021-07-14 02:23:41 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-3] 
+2021-07-14 02:23:42 INFO  WbWin-1 TAB-3: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-14 02:38:02 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 02:38:02 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-14 02:38:02 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-14 02:38:02 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-14 02:38:02 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-14 02:38:02 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-14 02:42:45 ERROR Error executing:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees ON Deptstaff.EmployeeID = Employees.ID
+JOIN Departments ON Deptstaff.DepartmentID = Departments.ID
+JOIN Positions ON Employees.PositionID = Positions.ID
+  Table "POSITIONS" not found; SQL statement:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees ON Deptstaff.EmployeeID = Employees.ID
+JOIN Departments ON Deptstaff.DepartmentID = Departments.ID
+JOIN Positions ON Employees.PositionID = Positions.ID [42102-192] [SQL State=42S02, DB Errorcode=42102] 
+2021-07-14 02:42:57 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-3 
+2021-07-14 02:46:58 ERROR Error executing:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees ON Deptstaff.EmployeeID = Employees.ID
+JOIN Departments ON Deptstaff.DepartmentID = Departments.ID
+JOIN Posisions ON Employees.PositionID = Positions.ID
+  Column "POSITIONS.NAME" not found; SQL statement:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees ON Deptstaff.EmployeeID = Employees.ID
+JOIN Departments ON Deptstaff.DepartmentID = Departments.ID
+JOIN Posisions ON Employees.PositionID = Positions.ID [42122-192] [SQL State=42S22, DB Errorcode=42122] 
+2021-07-14 02:48:23 ERROR Error executing:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees ON Deptstaff.EmployeeID = Employees.ID
+JOIN Departments ON Deptstaff.DepartmentID = Departments.ID
+JOIN Posisions ON Employees.PositionID = Posisions.ID
+  Column "POSITIONS.NAME" not found; SQL statement:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees ON Deptstaff.EmployeeID = Employees.ID
+JOIN Departments ON Deptstaff.DepartmentID = Departments.ID
+JOIN Posisions ON Employees.PositionID = Posisions.ID [42122-192] [SQL State=42S22, DB Errorcode=42122] 
+2021-07-14 02:48:36 ERROR Error executing:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees ON Deptstaff.EmployeeID = Employees.ID
+JOIN Departments ON Deptstaff.DepartmentID = Departments.ID
+JOIN Posisions ON Employees.PosisionID = Posisions.ID
+  Column "POSITIONS.NAME" not found; SQL statement:
+SELECT Employees.Name As Employee, Age,
+Positions.Name As Position,
+Departments.Name As Department FROM Deptstaff
+JOIN Employees ON Deptstaff.EmployeeID = Employees.ID
+JOIN Departments ON Deptstaff.DepartmentID = Departments.ID
+JOIN Posisions ON Employees.PosisionID = Posisions.ID [42122-192] [SQL State=42S22, DB Errorcode=42122] 
+2021-07-14 02:49:59 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-14 02:49:59 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-14 02:50:00 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-14 02:50:00 INFO  =================== Log stopped =================== 
+2021-07-14 02:50:23 INFO  =================== Log started =================== 
+2021-07-14 02:50:23 INFO  Using configdir: C:\Users\ayumu\.sqlworkbench 
+2021-07-14 02:50:23 INFO  Setting default locale to: en 
+2021-07-14 02:50:23 INFO  Starting SQL Workbench/J, Build 125 (2019-05-08 21:36) 
+2021-07-14 02:50:23 INFO  Java version=1.8.0_291, java.home=C:\Program Files (x86)\Java\jre1.8.0_291, vendor=Oracle Corporation, name=Java HotSpot(TM) Client VM 
+2021-07-14 02:50:23 INFO  Operating System=Windows 10, version=10.0, platform=x86 
+2021-07-14 02:50:23 INFO  Available memory: 989MB 
+2021-07-14 02:50:23 INFO  Classpath: C:\Users\ayumu\Downloads\デスクトップ\s1280020-e5\sql-workbench\sqlworkbench.jar 
+2021-07-14 02:50:23 INFO  Found 0 commands in 0ms 
+2021-07-14 02:50:23 INFO  Current DPI: 96, Default DPI: 96, scale factor: 1.0 
+2021-07-14 02:50:23 INFO  Using sizes: toolbar: 16, menu: 16 
+2021-07-14 02:50:24 INFO  Checking for ext libs took: 2ms 
+2021-07-14 02:50:24 INFO  Loading connection profiles from C:\Users\ayumu\.sqlworkbench\WbProfiles.xml 
+2021-07-14 02:50:27 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 02:50:27 INFO  Adding ClassLoader URL=file:/C:/Users/ayumu/Downloads/デスクトップ/s1280020-e5/h2.jar 
+2021-07-14 02:50:27 INFO  WbWin-1 TAB-1: Using DBID=h2 
+2021-07-14 02:50:27 INFO  WbWin-1 TAB-1: Using identifier quote character: " 
+2021-07-14 02:50:27 INFO  WbWin-1 TAB-1: Using search string escape character: \ 
+2021-07-14 02:50:27 INFO  WbWin-1 TAB-1: Using catalog separator: . 
+2021-07-14 02:50:27 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-1] 
+2021-07-14 02:50:32 INFO  Creating new connection for [{Default group}/New profile] for driver=org.h2.Driver and URL=[jdbc:h2:~/dm_example] 
+2021-07-14 02:50:32 INFO  WbWin-1 TAB-2: Using DBID=h2 
+2021-07-14 02:50:32 INFO  WbWin-1 TAB-2: Using identifier quote character: " 
+2021-07-14 02:50:32 INFO  WbWin-1 TAB-2: Using search string escape character: \ 
+2021-07-14 02:50:32 INFO  WbWin-1 TAB-2: Using catalog separator: . 
+2021-07-14 02:50:32 INFO  Connected to: [H2], Database version info: [1.4.192 (2016-05-26)], Database version number: [1.4], Driver version: [1.4.192 (2016-05-26)], JDBC version: [4.0], ID: [WbWin-1 TAB-2] 
+2021-07-14 02:50:32 INFO  WbWin-1 TAB-2: Table types returned by the JDBC driver: [EXTERNAL, SYSTEM TABLE, TABLE, TABLE LINK, VIEW] 
+2021-07-14 02:53:29 ERROR Error executing:
+select * from EMPLOYEESVIEW where DEPARTMENT = 'Marketing'
+  Table "EMPLOYEESVIEW" not found; SQL statement:
+select * from EMPLOYEESVIEW where DEPARTMENT = 'Marketing' [42102-192] [SQL State=42S02, DB Errorcode=42102] 
+2021-07-14 03:14:39 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-1 
+2021-07-14 03:14:39 INFO  Disconnecting: [New profile], ID=WbWin-1 TAB-2 
+2021-07-14 03:14:40 INFO  Stopping SQL Workbench/J, Build 125 
+2021-07-14 03:14:40 INFO  =================== Log stopped =================== 

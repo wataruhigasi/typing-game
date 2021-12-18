@@ -1,0 +1,95 @@
+# この viminfo ファイルは Vim 8.2 によって生成されました.
+# 変更する際には十分注意してください!
+
+# Viminfo version
+|1,4
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:qa
+|2,0,1636412115,,"qa"
+:wq
+|2,0,1625639531,,"wq"
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# デバッグ行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+""1	LINE	0
+		email = ayumu_h130424@outlook.jp
+|3,1,1,1,1,0,1624497842,"	email = ayumu_h130424@outlook.jp"
+"2	LINE	0
+		name = wataru
+|3,0,2,1,1,0,1624497840,"	name = wataru"
+"3	LINE	0
+	[user]
+|3,0,3,1,1,0,1624497839,"[user]"
+
+# ファイルマーク:
+'0  6  0  ~/Downloads/デスクトップ/epson-remote-study/.git/COMMIT_EDITMSG
+|4,48,6,0,1636412115,"~/Downloads/デスクトップ/epson-remote-study/.git/COMMIT_EDITMSG"
+'1  20  1  ~/.profile
+|4,49,20,1,1625639531,"~/.profile"
+'2  1  0  ~/.gitconfig
+|4,50,1,0,1624498055,"~/.gitconfig"
+'3  1  0  ~/.gitconfig
+|4,51,1,0,1624497854,"~/.gitconfig"
+
+# ジャンプリスト (新しいものが先):
+-'  6  0  ~/Downloads/デスクトップ/epson-remote-study/.git/COMMIT_EDITMSG
+|4,39,6,0,1636412115,"~/Downloads/デスクトップ/epson-remote-study/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Downloads/デスクトップ/epson-remote-study/.git/COMMIT_EDITMSG
+|4,39,1,0,1636412090,"~/Downloads/デスクトップ/epson-remote-study/.git/COMMIT_EDITMSG"
+-'  20  1  ~/.profile
+|4,39,20,1,1625639531,"~/.profile"
+-'  20  1  ~/.profile
+|4,39,20,1,1625639531,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1625639500,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1625639500,"~/.profile"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1624498055,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1624498055,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1624498055,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1624498055,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1624497854,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1624497854,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1624497854,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1624497854,"~/.gitconfig"
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/Downloads/デスクトップ/epson-remote-study/.git/COMMIT_EDITMSG
+	*	1636412105	0
+	"	6	0
+
+> ~/.profile
+	*	1625639526	0
+	"	20	1
+	^	20	2
+	.	20	1
+	+	20	1
+
+> ~/.gitconfig
+	*	1624497974	0
+	"	1	0
+	.	1	0
+	+	1	0

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><Datatypes dialect="MSSQLDialect">
+    <Datatype definition="" identity="false" name="bit">
+        <Jdbctype value="BIT"/>
+        <Jdbctype value="BOOLEAN"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="tinyint">
+        <Jdbctype value="TINYINT"/>
+    </Datatype>
+    <Datatype definition="" identity="true" name="tinyint identity">
+        <Jdbctype value="TINYINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="bigint">
+        <Jdbctype value="BIGINT"/>
+    </Datatype>
+    <Datatype definition="" identity="true" name="bigint identity">
+        <Jdbctype value="BIGINT"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="varbinary">
+        <Jdbctype value="VARBINARY"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="binary">
+        <Jdbctype value="BINARY"/>
+        <Jdbctype value="LONGVARBINARY"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="timestamp">
+        <Jdbctype value="TIMESTAMP"/>
+        <Jdbctype value="DATE"/>
+        <Jdbctype value="TIME"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="char">
+        <Jdbctype value="CHAR"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="nchar">
+        <Jdbctype value="CHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="uniqueidentifier">
+        <Jdbctype value="CHAR"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="numeric">
+        <Jdbctype value="NUMERIC"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="true" name="numeric() identity">
+        <Jdbctype value="NUMERIC"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="decimal">
+        <Jdbctype value="DECIMAL"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="money">
+        <Jdbctype value="DECIMAL"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="smallmoney">
+        <Jdbctype value="DECIMAL"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="true" name="decimal() identity">
+        <Jdbctype value="DECIMAL"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="int">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="true" name="int identity">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="smallint">
+        <Jdbctype value="SMALLINT"/>
+    </Datatype>
+    <Datatype definition="" identity="true" name="smallint identity">
+        <Jdbctype value="SMALLINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="real">
+        <Jdbctype value="REAL"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="float">
+        <Jdbctype value="DOUBLE"/>
+        <Jdbctype value="FLOAT"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="varchar">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="nvarchar">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="sysname">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="sql_variant">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="datetime">
+        <Jdbctype value="TIMESTAMP"/>
+        <Jdbctype value="DATE"/>
+        <Jdbctype value="TIME"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="smalldatetime">
+        <Jdbctype value="TIMESTAMP"/>
+        <Jdbctype value="DATE"/>
+        <Jdbctype value="TIME"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="image">
+        <Jdbctype value="BLOB"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="ntext">
+        <Jdbctype value="CLOB"/>
+        <Jdbctype value="LONGVARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="xml">
+        <Jdbctype value="SQLXML"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="text">
+        <Jdbctype value="CLOB"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="date">
+        <Jdbctype value="DATE"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="GEOMETRY">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="POINT">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="LINESTRING">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="POLYGON">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="MULTIPOINT">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="MULTILINESTRING">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="MULTIPOLYGON">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="GEOMETRYCOLLECTION">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+</Datatypes>

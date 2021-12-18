@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><Datatypes dialect="DB2">
+    <Datatype definition="$size" identity="false" name="VARCHAR() FOR BIT DATA">
+        <Jdbctype value="VARBINARY"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="CHAR() FOR BIT DATA">
+        <Jdbctype value="BINARY"/>
+        <Jdbctype value="BIT"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="CHAR">
+        <Jdbctype value="CHAR"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="NUMERIC">
+        <Jdbctype value="NUMERIC"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="DECIMAL">
+        <Jdbctype value="DECIMAL"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="BIGINT">
+        <Jdbctype value="BIGINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="BLOB">
+        <Jdbctype value="BLOB"/>
+        <Jdbctype value="LONGVARBINARY"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="CLOB">
+        <Jdbctype value="CLOB"/>
+        <Jdbctype value="SQLXML"/>
+        <Jdbctype value="LONGVARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="INTEGER">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="SMALLINT">
+        <Jdbctype value="SMALLINT"/>
+        <Jdbctype value="TINYINT"/>
+        <Jdbctype value="BOOLEAN"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="REAL">
+        <Jdbctype value="FLOAT"/>
+        <Jdbctype value="REAL"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="FLOAT">
+        <Jdbctype value="DOUBLE"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="VARCHAR">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="DATE">
+        <Jdbctype value="DATE"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="TIME">
+        <Jdbctype value="TIME"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="TIMESTAMP">
+        <Jdbctype value="TIMESTAMP"/>
+    </Datatype>
+</Datatypes>

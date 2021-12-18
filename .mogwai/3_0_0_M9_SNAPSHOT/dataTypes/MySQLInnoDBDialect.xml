@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><Datatypes dialect="MySQLInnoDBDialect">
+    <Datatype definition="$size" identity="false" name="BIT">
+        <Jdbctype value="BIT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="BOOL">
+        <Jdbctype value="BIT"/>
+        <Jdbctype value="BOOLEAN"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="TINYINT">
+        <Jdbctype value="TINYINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="TINYINT UNSIGNED">
+        <Jdbctype value="TINYINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="BIGINT">
+        <Jdbctype value="BIGINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="BIGINT UNSIGNED">
+        <Jdbctype value="BIGINT"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="NUMERIC">
+        <Jdbctype value="NUMERIC"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="DECIMAL">
+        <Jdbctype value="DECIMAL"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="DECIMAL UNSIGNED">
+        <Jdbctype value="DECIMAL"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="INTEGER">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="INTEGER UNSIGNED">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="INT">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="INT UNSIGNED">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="MEDIUMINT">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="MEDIUMINT UNSIGNED">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="SMALLINT">
+        <Jdbctype value="SMALLINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="SMALLINT UNSIGNED">
+        <Jdbctype value="SMALLINT"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="FLOAT">
+        <Jdbctype value="REAL"/>
+        <Jdbctype value="FLOAT"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="DOUBLE">
+        <Jdbctype value="DOUBLE"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="DOUBLE PRECISION">
+        <Jdbctype value="DOUBLE"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="REAL">
+        <Jdbctype value="DOUBLE"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="LONG VARBINARY">
+        <Jdbctype value="LONGVARBINARY"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="MEDIUMBLOB">
+        <Jdbctype value="LONGVARBINARY"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="LONGBLOB">
+        <Jdbctype value="LONGVARBINARY"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="BLOB">
+        <Jdbctype value="BLOB"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="CLOB">
+        <Jdbctype value="CLOB"/>
+        <Jdbctype value="SQLXML"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="TINYBLOB">
+        <Jdbctype value="LONGVARBINARY"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="VARBINARY">
+        <Jdbctype value="VARBINARY"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="BINARY">
+        <Jdbctype value="BINARY"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="LONG VARCHAR">
+        <Jdbctype value="LONGVARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="MEDIUMTEXT">
+        <Jdbctype value="LONGVARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="LONGTEXT">
+        <Jdbctype value="LONGVARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="TEXT">
+        <Jdbctype value="LONGVARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="TINYTEXT">
+        <Jdbctype value="LONGVARCHAR"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="CHAR">
+        <Jdbctype value="CHAR"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="VARCHAR">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="DATE">
+        <Jdbctype value="DATE"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="TIME">
+        <Jdbctype value="TIME"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="DATETIME">
+        <Jdbctype value="TIMESTAMP"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="TIMESTAMP">
+        <Jdbctype value="TIMESTAMP"/>
+    </Datatype>
+    <Datatype definition="$extra" identity="false" name="ENUM">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="$extra" identity="false" name="SET">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="GEOMETRY">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="POINT">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="LINESTRING">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="POLYGON">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="MULTIPOINT">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="MULTILINESTRING">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="MULTIPOLYGON">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="GEOMETRYCOLLECTION">
+        <Jdbctype value="OTHER"/>
+    </Datatype>
+</Datatypes>

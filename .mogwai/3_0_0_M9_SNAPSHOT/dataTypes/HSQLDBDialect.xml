@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><Datatypes dialect="HSQLDBDialect">
+    <Datatype definition="" identity="false" name="bigint">
+        <Jdbctype value="BIGINT"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="binary">
+        <Jdbctype value="BINARY"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="blob">
+        <Jdbctype value="BLOB"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="boolean">
+        <Jdbctype value="BOOLEAN"/>
+        <Jdbctype value="BIT"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="char">
+        <Jdbctype value="CHAR"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="clob">
+        <Jdbctype value="CLOB"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="date">
+        <Jdbctype value="DATE"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="decimal">
+        <Jdbctype value="NUMERIC"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="double">
+        <Jdbctype value="DOUBLE"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="float">
+        <Jdbctype value="FLOAT"/>
+    </Datatype>
+    <Datatype definition="" identity="true" name="identity">
+        <Jdbctype value="BIGINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="integer">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="longvarbinary">
+        <Jdbctype value="LONGVARBINARY"/>
+        <Jdbctype value="SQLXML"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="longvarchar">
+        <Jdbctype value="LONGVARCHAR"/>
+    </Datatype>
+    <Datatype definition="$size,$fraction" identity="false" name="numeric">
+        <Jdbctype value="NUMERIC"/>
+        <Jdbctype value="DECIMAL"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="real">
+        <Jdbctype value="REAL"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="smallint">
+        <Jdbctype value="SMALLINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="time">
+        <Jdbctype value="TIME"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="timestamp">
+        <Jdbctype value="TIMESTAMP"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="tinyint">
+        <Jdbctype value="TINYINT"/>
+    </Datatype>
+    <Datatype definition="$size" identity="true" name="uuid">
+        <Jdbctype value="BINARY"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="varbinary">
+        <Jdbctype value="VARBINARY"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="varchar">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="varchar_ignorecase">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+</Datatypes>

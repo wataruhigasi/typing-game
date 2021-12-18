@@ -1,0 +1,18 @@
+00:00:01.077329 VirtualBox GUI VM Selector Window 6.1.26 r145957 win.amd64 (Jul 28 2021 17:15:09) release log
+00:00:01.077331 Log opened 2021-09-26T05:58:50.288386900Z
+00:00:01.077332 Build Type: release
+00:00:01.077335 OS Product: Windows 10
+00:00:01.077336 OS Release: 10.0.19042
+00:00:01.077336 OS Service Pack: 
+00:00:01.094486 DMI Product Name: Surface Laptop 3
+00:00:01.109395 DMI Product Version: 124I:00036T:000M:0300000D:0B:07F:1C:05P:48S:01E:0Y:0K:0U:02
+00:00:01.109442 Firmware type: UEFI
+00:00:01.110313 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:01.110347 Host RAM: 7778MB (7.5GB) total, 3073MB (3.0GB) available
+00:00:01.110354 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:01.110355 Process ID: 17048
+00:00:01.110355 Package type: WINDOWS_64BITS_GENERIC
+00:00:01.110552 Qt version: 5.6.2
+00:00:01.340243 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.340400 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:02.198711 refreshCertificates/#3: Found 1/87 SSL certs we/you trust (previously 0/0).

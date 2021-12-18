@@ -1,0 +1,117 @@
+{
+	"name": "nuxt-vscode-extension",
+	"displayName": "Nuxt",
+	"publisher": "allanoricil",
+	"description": "This extension aims to simplify the workflow when coding with Nuxt in VS Code",
+	"preview": true,
+	"author": {
+		"name": "Allan Oricil",
+		"email": "allanoricilcos@outlook.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AllanOricil/nuxt-vscode-extension.git"
+	},
+	"icon": "assets/icon.png",
+	"galleryBanner": {
+		"color": "#2F495E",
+		"theme": "dark"
+	},
+	"version": "0.0.16",
+	"engines": {
+		"node": "12.22.0",
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"nuxt",
+		"vue"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./dist/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "Nuxt.createApp",
+				"title": "Nuxt: Create App"
+			},
+			{
+				"command": "Nuxt.startDevServer",
+				"title": "Nuxt: Start Dev Server"
+			},
+			{
+				"command": "Nuxt.openApp",
+				"title": "Nuxt: Open App"
+			},
+			{
+				"command": "Nuxt.setPortNumber",
+				"title": "Nuxt: Set Port Number"
+			}
+		],
+		"menus": {},
+		"configuration": {
+			"title": "Nuxt",
+			"properties": {
+				"nuxt.portNumber": {
+					"type": "number",
+					"default": 3000,
+					"description": "It is the port number that the Nuxt app is served at. If you empty this property, the app is served on port 3000"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"dev": "webpack --config webpack.config.dev.js",
+		"test": "node ./node_modules/vscode/bin/test",
+		"build": "webpack --config webpack.config.js",
+		"prettier:fix": "prettier --write src/**/*.js --ignore-unknown",
+		"lint:js": "eslint . --ext .js,.jsx",
+		"lint:js:fix": "npm run lint:js -- --fix"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"**/*.js": [
+			"prettier --write --ignore-unknown",
+			"eslint . --fix"
+		]
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^10.12.21",
+		"babel-loader": "^8.2.2",
+		"clean-webpack-plugin": "^3.0.0",
+		"cross-env": "^7.0.3",
+		"dotenv-webpack": "^4.0.0",
+		"eslint": "^7.32.0",
+		"javascript-obfuscator": "^2.10.3",
+		"nodemon": "^2.0.7",
+		"terser-webpack-plugin": "^4.2.3",
+		"typescript": "^3.3.1",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.12",
+		"webpack-obfuscator": "^2.6.0"
+	},
+	"dependencies": {
+		"@types/vscode": "^1.56.0",
+		"eslint-config-prettier": "^8.3.0",
+		"has-yarn": "^2.1.0",
+		"i18n": "^0.13.3",
+		"lint-staged": "^11.1.2",
+		"prettier": "^2.4.0",
+		"tcp-port-used": "^1.0.2"
+	},
+	"__metadata": {
+		"id": "c3590016-b8fd-4029-b16e-960c7d917c5a",
+		"publisherId": "eadfc771-9e03-465d-88f9-920a82b613cd",
+		"publisherDisplayName": "Allan Oricil",
+		"installedTimestamp": 1637140332227
+	}
+}

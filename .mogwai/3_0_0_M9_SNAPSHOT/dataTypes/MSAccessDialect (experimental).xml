@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><Datatypes dialect="MSAccessDialect (experimental)">
+    <Datatype definition="" identity="false" name="integer">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="$size" identity="false" name="varchar">
+        <Jdbctype value="VARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="true" name="counter">
+        <Jdbctype value="INTEGER"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="datetime">
+        <Jdbctype value="DATE"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="byte">
+        <Jdbctype value="TINYINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="bit">
+        <Jdbctype value="BOOLEAN"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="longchar">
+        <Jdbctype value="LONGNVARCHAR"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="smallint">
+        <Jdbctype value="SMALLINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="double">
+        <Jdbctype value="DOUBLE"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="real">
+        <Jdbctype value="REAL"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="currency">
+        <Jdbctype value="BIGINT"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="longbinary">
+        <Jdbctype value="BLOB"/>
+    </Datatype>
+    <Datatype definition="" identity="false" name="decimal">
+        <Jdbctype value="DECIMAL"/>
+    </Datatype>
+</Datatypes>

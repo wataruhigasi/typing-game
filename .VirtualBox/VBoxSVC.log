@@ -1,0 +1,64 @@
+00:00:00.015316 main     VirtualBox COM Server 6.1.26 r145957 win.amd64 (Jul 28 2021 17:15:09) release log
+00:00:00.015318 main     Log opened 2021-09-26T05:58:49.678774000Z
+00:00:00.015318 main     Build Type: release
+00:00:00.015354 main     OS Product: Windows 10
+00:00:00.015355 main     OS Release: 10.0.19042
+00:00:00.015356 main     OS Service Pack: 
+00:00:00.074704 main     DMI Product Name: Surface Laptop 3
+00:00:00.092029 main     DMI Product Version: 124I:00036T:000M:0300000D:0B:07F:1C:05P:48S:01E:0Y:0K:0U:02
+00:00:00.092063 main     Firmware type: UEFI
+00:00:00.092374 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.092466 main     Host RAM: 7778MB (7.5GB) total, 3068MB (2.9GB) available
+00:00:00.092481 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.092481 main     Process ID: 14972
+00:00:00.092482 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.358415          VirtualBox: object creation starts
+00:00:00.358820          Home directory: 'C:\Users\ayumu\.VirtualBox'
+00:00:00.359012          Installed Drivers:
+00:00:00.368829            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.26.45957)
+00:00:00.369345            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.26.45957)
+00:00:00.369867            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.26.45957)
+00:00:00.370391            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.26.45957)
+00:00:00.375730          usbLibGetDevices: Starting USB device enumeration
+00:00:00.419223          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.419361          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.421334          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.421523          USB: Unknown USB device detected (idVendor: 0x045e, idProduct: 0x0990)
+00:00:00.421655          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.476621          netIfIsWireless: CreateFile on '\\.\{342AE37F-35A8-4861-8489-B7DEF92F3670}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.477412          netIfIsWireless: CreateFile on '\\.\{C0CAB495-4A1A-4967-95FA-050D61CE09B5}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.486252          HostDnsMonitor: initializing
+00:00:00.496490          HostDnsMonitor: updating information
+00:00:00.496601          HostDnsMonitor: old information
+00:00:00.496602            no server entries
+00:00:00.496604            no domain set
+00:00:00.496604            no search string entries
+00:00:00.496605          HostDnsMonitor: new information
+00:00:00.496605            server 1: 172.18.0.24
+00:00:00.496606            server 2: 192.168.0.1
+00:00:00.496607            no domain set
+00:00:00.496607            no search string entries
+00:00:00.559934          VD: VDInit finished with VINF_SUCCESS
+00:00:00.564899          VirtualBox: object created
+00:00:02.372092          Saving settings file "C:\Users\ayumu\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.383502          Saving settings file "C:\Users\ayumu\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:16.599071 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:16.632319 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:16.632637 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:16.633261 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:29.751242 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:29.784335 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:29.784772 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:29.785634 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:02:18.046728          Saving settings file "C:\Users\ayumu\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:50.141207          Saving settings file "C:\Users\ayumu\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:50.154581          Saving settings file "C:\Users\ayumu\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:50.171648          Saving settings file "C:\Users\ayumu\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:50.186371          Saving settings file "C:\Users\ayumu\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:50.198393          Saving settings file "C:\Users\ayumu\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:50.207529          Saving settings file "C:\Users\ayumu\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:55.760649 main     VirtualBox: object deletion starts
+00:02:55.764079 main     HostDnsMonitor: shutting down ...
+00:02:55.764289 main     HostDnsMonitor: shut down
+00:02:55.771828 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:02:55.773453 main     VirtualBox: object deleted

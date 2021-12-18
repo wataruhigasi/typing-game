@@ -1,0 +1,80 @@
+{
+	"analytics-uuid": "ad45218b-b4b4-4770-9572-55ab88542d4f",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1629530398956
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "107173594778629039307",
+		"email": "ayumu_h130424@icloud.com",
+		"email_verified": true,
+		"at_hash": "rstOJgOG3HGYJgp-og22oQ",
+		"iat": 1626327575,
+		"exp": 1626331175
+	},
+	"tokens": {
+		"expires_at": 1629534126743,
+		"refresh_token": "1//0eMeiPV-vxle9CgYIARAAGA4SNwF-L9Ir9SA-W3qYKNxmDqinSMd9xRIUrC6-_bJDRbg5UVsvXFka0MpnOM2h8Qen62BGp6lcPpg",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0ARrdaM8UO9bsH8AeYjg9WfCZGV8pcV3BOsE_ERyxX7PEm5lH6acm3brTtzFQhjOsMJixkeKEnJhZ0YmVdgXdZYymI4ikaE6vI4FUD09WFNjQPXnhU7szj0bcMwHgcHHqNVP8rLYPkTtkgeixlft9rFtlJDj2_4oCCy5-GHs",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZlZjRiZDkwODU5MWY2OTdhOGE5Yjg5M2IwM2U2YTc3ZWIwNGU1MWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA3MTczNTk0Nzc4NjI5MDM5MzA3IiwiZW1haWwiOiJzMTI4MDAyMGFpenVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJXZjNZZWZpSkFPdUhTTElxRlFsbEhnIiwiaWF0IjoxNjI5NTMwNTI3LCJleHAiOjE2Mjk1MzQxMjd9.X2mekMDx0bzeNR8B_K0Vq2MMFE2bEJ5uNoS4rWaAxDt_q-HnNo95VxNFWVqPSAQWeBArTSMuQcRoVcvnkE-oxLIoQbLQYBKMuhYrFxuU9rPc4I7vkrR0ZFI3gKxvUgVFbo5yc3YDe0OHoCKfxY6XQnd3YMwZOulb_8KIsQI31CEqMzxAgWFs3iiCFhvwZLUotHSwSgCv1DOds2Kh4oAt7nGnlX9xTApg2GIXy3oRzfhidZBt9kct21kj58UQaECIxnGxS2alq0kdgZjs3-DFEU1HzF-K0LfYJaeuO-3Py9b-44IejDUCE-kBxqJHO6X1-i0OcHWxgBbDc0cMGeDOKA"
+	},
+	"activeProjects": {
+		"C:\\WINDOWS\\system32\\seika\\deliverable": "basket-c3d32",
+		"C:\\WINDOWS\\system32\\seika\\time": "basket-c3d32",
+		"C:\\WINDOWS\\system32\\seika\\basuke": "basket-c3d32"
+	},
+	"webconfig": {
+		"basket-a3cb1": {
+			"projectId": "basket-a3cb1",
+			"appId": "1:217473519534:web:b727280c372e389d8f023f",
+			"databaseURL": "https://basket-a3cb1-default-rtdb.firebaseio.com",
+			"storageBucket": "basket-a3cb1.appspot.com",
+			"apiKey": "AIzaSyDUndum1FExS8DN7xVuA1Ffd6JzCwq5NUk",
+			"authDomain": "basket-a3cb1.firebaseapp.com",
+			"messagingSenderId": "217473519534",
+			"measurementId": "G-3WKWDK8E0V"
+		},
+		"basketball-d5ccf": {
+			"projectId": "basketball-d5ccf",
+			"appId": "1:929074964754:web:cfe188cd96472daa18abcb",
+			"databaseURL": "https://basketball-d5ccf-default-rtdb.firebaseio.com",
+			"storageBucket": "basketball-d5ccf.appspot.com",
+			"apiKey": "AIzaSyBfWdrGTNjwaVZnSAVb5qFZTkAT6dIF0i8",
+			"authDomain": "basketball-d5ccf.firebaseapp.com",
+			"messagingSenderId": "929074964754",
+			"measurementId": "G-F592MDJ6Y7"
+		},
+		"basket-c3d32": {
+			"projectId": "basket-c3d32",
+			"appId": "1:315935141018:web:40aedfbe55c227fe070323",
+			"databaseURL": "https://basket-c3d32-default-rtdb.firebaseio.com",
+			"storageBucket": "basket-c3d32.appspot.com",
+			"locationId": "asia-northeast1",
+			"apiKey": "AIzaSyDmsdB8AwiZqYU-mnLe8TR6wSjkMUwpYb0",
+			"authDomain": "basket-c3d32.firebaseapp.com",
+			"messagingSenderId": "315935141018",
+			"measurementId": "G-V0BB6PZQ08"
+		}
+	},
+	"lastError": 1629530534743
+}
