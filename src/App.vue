@@ -2,6 +2,7 @@
   <div>
     <Header />
     <main class="py-12 max-w-screen-md mx-auto grid place-items-center">
+      <Game />
     </main>
     <Footer />
   </div>
@@ -11,9 +12,12 @@
 import { defineComponent } from 'vue'
 import Footer from '@/components/Footer.vue'
 import Header from './components/Header.vue'
+import Game from './pages/Game.vue'
+
   export default defineComponent({
   name: 'App',
-  components: { Footer, Header },
+  components: { Footer, Header, Game },
+  pages: { Game },
   })
 </script>
 
