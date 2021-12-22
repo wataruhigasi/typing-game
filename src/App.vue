@@ -9,15 +9,20 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, provide } from 'vue'
 import Footer from '@/components/Footer.vue'
 import Header from './components/Header.vue'
 import Game from './pages/Game.vue'
+import TypingKey from '@/result/Typing-key'
+import { Typing } from '@/result/Typing'
 
   export default defineComponent({
   name: 'App',
   components: { Footer, Header, Game },
   pages: { Game },
+  setup () {
+    provide(TypingKey, Typing())
+  }
   })
 </script>
 
