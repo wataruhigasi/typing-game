@@ -9,7 +9,9 @@ export const Typing = (): ReturnStateProps => {
         characterData: JSON.parse(JSON.stringify(characterData)),
         phase: 'IDLE',
         timer: 0,
-        timerId: null
+        timerId: null,
+        missTypingCount: 0,
+        typingCount: 0,
     }
     console.log(characterData)
     const state = reactive<StateProps>({ ...defaultState })
@@ -31,6 +33,7 @@ export const Typing = (): ReturnStateProps => {
             }
         } else {
             state.isValid = true
+            state.missTypingCount++
         }
         console.log('キーボード入力受け取り', keycode)
     }
@@ -39,11 +42,16 @@ export const Typing = (): ReturnStateProps => {
             state.timer++
         },1000)
     }
+    const typingResult = computed(() => {
+        const sum = state.typingCount + state.missTypingCount
+        return Math.round((state.typingCount/sum) * 100)
+    })
     return {
         ...toRefs(state),
         selectedCharacterData,
         getKeycode,
         startTimer,
+        typingResult,
     }
 }
 
