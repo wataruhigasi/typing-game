@@ -7,13 +7,13 @@ interface InputObject {
 }
 
 interface StateProps {
+    isValid: boolean
     characterData: InputObject[]
 }
 
 type ReturnStateProps = {
-    // phase: phaseProps
     selectedCharacterData: ComputedRef<InputObject>
-    // isValid: boolean
+    getKeycode: (event: KeyboardEvent) => void
 } & ToRefs<StateProps>
 
 export {InputObject, StateProps, ReturnStateProps}
