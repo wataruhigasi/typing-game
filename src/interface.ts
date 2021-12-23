@@ -1,5 +1,5 @@
 import { ComputedRef, ToRefs } from 'vue'
-// type phaseProps = 'IDLE' | 'START' | 'FINISHED'
+type phaseProps = 'IDLE' | 'START' | 'FINISHED'
 
 interface InputObject {
     name: string,
@@ -9,6 +9,7 @@ interface InputObject {
 interface StateProps {
     isValid: boolean
     characterData: InputObject[]
+    phase: phaseProps
 }
 
 type ReturnStateProps = {
@@ -16,4 +17,4 @@ type ReturnStateProps = {
     getKeycode: (event: KeyboardEvent) => void
 } & ToRefs<StateProps>
 
-export {InputObject, StateProps, ReturnStateProps}
+export {InputObject, StateProps, ReturnStateProps, phaseProps}

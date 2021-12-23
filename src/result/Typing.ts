@@ -6,7 +6,8 @@ import { characterData } from '@/constants'
 export const Typing = (): ReturnStateProps => {
     const defaultState: StateProps = {
         isValid: false,
-        characterData: JSON.parse(JSON.stringify(characterData))
+        characterData: JSON.parse(JSON.stringify(characterData)),
+        phase: 'IDLE',
     }
     console.log(characterData)
     const state = reactive<StateProps>({ ...defaultState })
@@ -22,6 +23,7 @@ export const Typing = (): ReturnStateProps => {
             if (!selectedCharacterData.value.romaji.length) {
                 state.characterData.splice(randomNumber.value, 1)
                 if (!state.characterData.length) {
+                    state.phase = 'FINISHED'
                     document.removeEventListener('keypress',getKeycode)
                 }
             }
