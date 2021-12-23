@@ -12,9 +12,12 @@
 </template>
 
 <script lang="ts">
-import { defineComponent , ref} from 'vue'
+import { TypingStore } from '@/result/Typing'
+import TypingKey from '@/result/Typing-key'
+import { defineComponent , ref, inject} from 'vue'
 export default defineComponent({
     setup () {
+    const { phase } = inject(TypingKey) as TypingStore
     const count = ref<number>(0)
     const countDown = () => {
         count.value = 3
@@ -22,6 +25,7 @@ export default defineComponent({
             count.value--
             if(!count.value){
                 clearInterval(countInterval)
+                phase.value = 'START'
             }
         },1000)
         console.log('countDown')
