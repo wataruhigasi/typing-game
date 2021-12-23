@@ -22,6 +22,7 @@ export const Typing = (): ReturnStateProps => {
         const keycode = event.key
         const splitCharacterDataRomaji = selectedCharacterData.value.romaji.split('')
         if (keycode === splitCharacterDataRomaji[0]) {
+            state.typingCount++
             state.isValid = false
             state.characterData[randomNumber.value].romaji = selectedCharacterData.value.romaji.slice(1)
             if (!selectedCharacterData.value.romaji.length) {
@@ -44,7 +45,7 @@ export const Typing = (): ReturnStateProps => {
     }
     const typingResult = computed(() => {
         const sum = state.typingCount + state.missTypingCount
-        return Math.round((state.typingCount/sum) * 100)
+        return Math.round((state.typingCount / sum) * 100)
     })
     return {
         ...toRefs(state),
