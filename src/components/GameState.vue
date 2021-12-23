@@ -2,7 +2,7 @@
     <div>
         <ul>
             <li class="text-center">
-                <h2 class="font-bold text-2xl">{{ selectedCharacterData }}</h2>
+                <h2 class="font-bold text-2xl">{{ selectedCharacterData.name }}</h2>
                 <p class="relative mt-4 font-bold text-xl typing-text" :class="{valid: isValid}">{{selectedCharacterData.romaji.toLocaleUpperCase()}}</p>
             </li>
         </ul>

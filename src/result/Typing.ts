@@ -16,7 +16,7 @@ export const Typing = (): ReturnStateProps => {
     console.log('selectedCharacterData', selectedCharacterData)
     const getKeycode = (event: KeyboardEvent) => {
         const keycode = event.key
-        const splitCharacterDataRomaji = selectedCharacterData.value.name.split('')
+        const splitCharacterDataRomaji = selectedCharacterData.value.romaji.split('')
         if (keycode === splitCharacterDataRomaji[0]) {
             state.isValid = false
             state.characterData[randomNumber.value].romaji = selectedCharacterData.value.romaji.slice(1)
@@ -28,7 +28,7 @@ export const Typing = (): ReturnStateProps => {
                 }
             }
         } else {
-            state.isValid = false
+            state.isValid = true
         }
         console.log('キーボード入力受け取り', keycode)
     }
