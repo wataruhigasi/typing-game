@@ -8,6 +8,8 @@ export const Typing = (): ReturnStateProps => {
         isValid: false,
         characterData: JSON.parse(JSON.stringify(characterData)),
         phase: 'IDLE',
+        timer: 0,
+        timerId: null
     }
     console.log(characterData)
     const state = reactive<StateProps>({ ...defaultState })
@@ -32,10 +34,16 @@ export const Typing = (): ReturnStateProps => {
         }
         console.log('キーボード入力受け取り', keycode)
     }
+    const startTimer = () => {
+        state.timerId = setInterval(() => {
+            state.timer++
+        },1000)
+    }
     return {
         ...toRefs(state),
         selectedCharacterData,
         getKeycode,
+        startTimer,
     }
 }
 
