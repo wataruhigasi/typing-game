@@ -18,8 +18,8 @@ import { TypingStore } from '@/result/Typing'
 export default defineComponent({
     setup() {
         console.log('Aa')
-        const { isValid, selectedCharacterData, getKeycode } = inject(TypingKey) as TypingStore
-        console.log('be')
+        const { isValid, selectedCharacterData, getKeycode, startTimer } = inject(TypingKey) as TypingStore
+        startTimer()
         document.addEventListener('keypress', getKeycode)
         return {
             isValid,
