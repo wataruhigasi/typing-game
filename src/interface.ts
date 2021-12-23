@@ -12,6 +12,8 @@ interface StateProps {
     phase: phaseProps
     timer: number
     timerId: any
+    missTypingCount: number
+    typingCount: number
 }
 
 type ReturnStateProps = {
@@ -19,6 +21,7 @@ type ReturnStateProps = {
     getKeycode: (event: KeyboardEvent) => void
     startTimer: () => void
     timerId: any
+    typingResult: ComputedRef<number>
 } & ToRefs<StateProps>
 
 export {InputObject, StateProps, ReturnStateProps, phaseProps}
