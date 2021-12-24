@@ -29,3 +29,8 @@ export default defineComponent({
 })
 </script>
 
+<style scoped>
+.valid::first-letter{
+    @apply text-red-600 font-bold
+}
+</style>

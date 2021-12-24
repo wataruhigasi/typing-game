@@ -1,6 +1,6 @@
 <template>
     <footer class="grid place-items-center bg-red-500 text-white text-center">
-        <small>&copy;2021 k-logic24</small>
+        <small>&copy;2021 wataruhigaasi</small>
     </footer>
 </template>
 
