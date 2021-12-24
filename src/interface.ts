@@ -4,6 +4,7 @@ type phaseProps = 'IDLE' | 'START' | 'FINISHED'
 interface InputObject {
     name: string,
     romaji: string,
+    photo: string,
 }
 
 interface StateProps {
