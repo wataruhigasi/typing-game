@@ -1,5 +1,5 @@
 <template>
-    <footer class="grid place-items-center bg-red-500 text-white text-center">
+    <footer class="grid place-items-center bg-blue-500 text-white text-center">
         <small>&copy;2021 wataruhigaasi</small>
     </footer>
 </template>

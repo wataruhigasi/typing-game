@@ -3,7 +3,7 @@
         <h2 class="text-xl font-bold">結果</h2>
         <table class="mt-8 w-full table-auto">
             <thead>
-                <tr class="bg-red-400 text-white">
+                <tr class="bg-blue-400 text-white">
                     <th class="py-2">タイピング数</th>
                     <th class="border-l border-white py-2">ミスタイピング数</th>
                     <th class="border-l border-white py-2">正打率</th>

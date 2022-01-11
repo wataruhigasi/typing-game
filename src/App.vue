@@ -1,11 +1,11 @@
 <template>
   <div>
     <Header />
-    <main class="py-12 max-w-screen-md mx-auto grid place-items-center">
+    <main class=" max-w-screen-xl mx-auto grid place-items-center">
       <Game />
     </main>
+    </div>
     <Footer />
-  </div>
 </template>
 
 <script lang="ts">
@@ -22,6 +22,16 @@ import { Typing } from '@/result/Typing'
   pages: { Game },
   setup () {
     provide(TypingKey, Typing())
+    console.log('中身確認',Typing().phase.value)
+    // const changeCss = () => {
+    //   if(Typing().phase.value === 'IDLE'){
+    //     return 'body'
+    //   } else {
+    //     return 'noclorbody'
+    //   }
+    // }
+    // const Cssname = inject('changeCss')
+    // console.log('cssName', Cssname)
   }
   })
 </script>
@@ -29,5 +39,12 @@ import { Typing } from '@/result/Typing'
 <style scoped>
 main {
   height: calc(100vh - 90px);
+}
+.body {
+  background-image: url("~@/assets/background.png");
+  background-size: 100% 100%;
+}
+.nobody {
+  background-color: aliceblue;
 }
 </style>

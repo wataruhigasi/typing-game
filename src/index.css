@@ -11,9 +11,9 @@ html {
 }
 
 .app-btn {
-    @apply inline-block py-2 px-4 rounded bg-red-400 text-white transition-all duration-100;
+    @apply inline-block py-3 px-4 rounded bg-blue-500 text-white transition-all duration-100;
 
-    box-shadow: 0px 2px 1px theme('colors.red.500');
+    box-shadow: 0px 2px 1px theme('colors.blue.500');
 }
 
 .app-btn:hover {
