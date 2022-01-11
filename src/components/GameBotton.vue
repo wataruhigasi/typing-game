@@ -1,11 +1,14 @@
 <template>
     <div>
         <template v-if="!count">
-            <div class="mt-8 text-center">
-            <button type="button" class="font-bold app-btn" @click="countDown">タイピングを始める</button>
+            <figure>
+                <img src="@/assets/background.png" width="10000" height="1000">
+            </figure>
+            <div class="position">
+                <button type="button" class="font-bold app-btn" @click="countDown">タイピングを始める</button>
             </div>
         </template>
-        <p class="mt-4 text-center text-red-400 text-9xl font-bold" v-else>
+        <p class="mt-4 text-center text-blue-400 text-9xl font-bold" v-else>
         {{ count }}
         </p>
     </div>
@@ -15,6 +18,7 @@
 import { TypingStore } from '@/result/Typing'
 import TypingKey from '@/result/Typing-key'
 import { defineComponent , ref, inject} from 'vue'
+
 export default defineComponent({
     setup () {
     const { phase } = inject(TypingKey) as TypingStore
@@ -26,6 +30,7 @@ export default defineComponent({
             if(!count.value){
                 clearInterval(countInterval)
                 phase.value = 'START'
+                // provide('changeCss', phase.value)
             }
         },1000)
         console.log('countDown')
@@ -37,3 +42,12 @@ export default defineComponent({
     }
 })
 </script>
+
+<style scoped>
+.position {
+    position: absolute; 
+    left: 45%; 
+    top: 46%;
+}
+
+</style>
