@@ -31,6 +31,7 @@ import { TypingStore } from '@/result/Typing'
 export default defineComponent({
     setup () {
         const { typingCount, missTypingCount, typingResult, timer, timerId } = inject(TypingKey) as TypingStore
+        console.log('timer', timer)
         clearInterval(timerId.value)
 
         return {
