@@ -20,6 +20,9 @@
         </tbody>
         </table>
     </section>
+    <div align="center" class="position">
+    <button type="button" class="font-bold app-btn" @click="returnHome">ホームに戻る</button>
+    </div>
 </template>
 
 <script lang="ts">
@@ -30,16 +33,30 @@ import { TypingStore } from '@/result/Typing'
 
 export default defineComponent({
     setup () {
-        const { typingCount, missTypingCount, typingResult, timer, timerId } = inject(TypingKey) as TypingStore
+        const { typingCount, missTypingCount, typingResult, timer, timerId, phase } = inject(TypingKey) as TypingStore
         console.log('timer', timer)
         clearInterval(timerId.value)
+
+        const returnHome = () => {
+            phase.value = 'IDLE'
+        }
 
         return {
             typingCount,
             missTypingCount,
             typingResult,
             timer,
+            returnHome,
         }
     }
 })
 </script>
+
+<style scoped>
+.position {
+    position: absolute; 
+    left: 45%; 
+    top: 70%;
+}
+
+</style>
